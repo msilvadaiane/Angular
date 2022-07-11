@@ -1,1 +1,5 @@
-<app-cadastrar></app-cadastrar>
+<app-menu *ngif="auth.logado()"></app-menu>
+
+<router-outlet></router-outlet>
+
+<app-rodape *ngif="auth.logado()"></app-rodape>
