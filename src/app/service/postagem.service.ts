@@ -13,7 +13,9 @@ export class PostagemService {
 
   token = {
     headers: new HttpHeaders().set('Authorization', environment.token)
+    
   }
+  
 
  
 
